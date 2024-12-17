@@ -1,0 +1,41 @@
+/* Reset dan Style Dasar */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Style Tabel */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Jarak antara Tabel dan Diagram */
+#chart-container {
+    width: 800px; /* Lebar diagram */
+    height: 420px; /* Tinggi diagram */
+    margin: 40px auto; /* Jarak atas-bawah */
+    border: 2px solid #ddd; /* Border untuk diagram */
+    border-radius: 8px; /* Membuat sudut border melengkung */
+    background-color: #f9f9f9; /* Warna background untuk kontras */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan */
+    padding: 10px; /* Memberi ruang di dalam border */
+    box-sizing: border-box; /* Menghitung padding sebagai bagian dari lebar */
+}
+
